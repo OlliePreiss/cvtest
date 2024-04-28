@@ -1,0 +1,22 @@
+/* ARROW */
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.closed {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transition: 0.5s;
+}
+
+.open {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  border: solid grey;
+  border-width: 0 3px 3px 0;
+  transition: 0.5s;
+}

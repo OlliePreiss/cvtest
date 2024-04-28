@@ -1,0 +1,119 @@
+.workspace-container {
+  flex: 2;
+  display: flex;
+  padding: 32px;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.cv-page {
+  background-color: white;
+  color: black;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  aspect-ratio: 1 / 1.414;
+}
+
+.submit-button {
+  background-color: white;
+  border: 1px solid rgb(221, 221, 221);
+  padding: 0.5rem;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.submit-button:hover {
+  border: 1px solid rgb(204, 204, 204);
+  font-weight: 600;
+}
+
+/* PERSONAL INFORMATION */
+
+.cv-header {
+  background-color: navy;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: white;
+}
+
+.cv-header h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cv-header p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* CV BODY */
+
+.cv-section {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.cv-section p {
+  text-align: left;
+  margin: 0px;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.cv-entry {
+  margin-top: 16px;
+}
+
+.entry-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.entry-title-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.entry-headline-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.entry-headline {
+  color: grey;
+  font-weight: 300;
+}
+
+.entry-body {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.textarea {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+}

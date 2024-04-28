@@ -1,0 +1,29 @@
+/* NAV */
+
+.nav {
+  background-color: #242424;
+  width: 100vw;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  display: flex;
+  padding-left: 32px;
+  align-items: center;
+}
+
+.nav-item-container {
+  display: flex;
+  padding-left: 32px;
+}
+
+.nav-item {
+  padding-left: 32px;
+}
+
+.nav p {
+  color: whitesmoke;
+}
+
+.nav h3 {
+  color: whitesmoke
+}
